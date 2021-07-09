@@ -9,7 +9,7 @@ function App() {
 
   useEffect(() => {
     TableTop.init({
-    key: '1Py1bvpFxg2aBjxaOSRdHjza5YDQJrh9UHp3siflykyc',
+    key: 'YOUR_KEY',
       callback: googleData => {
         setData(googleData);
       },
